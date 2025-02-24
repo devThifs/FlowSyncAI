@@ -15,7 +15,7 @@ llm = ChatGroq(
 
 app = FastAPI()
 
-#mini base de dados dos eventos (mininhabasinha)
+#mini base de dados dos eventos
 eventos = [
     {
         "nome_do_evento": "Palestra de Inteligência Artificial",
